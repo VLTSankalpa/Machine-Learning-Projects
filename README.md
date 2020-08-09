@@ -44,3 +44,11 @@ An outlier is a data point that differs significantly from other observations. C
 #### part 2 :- Identifing outlier traders based on sum of Executed Qty using Hierarchical Clustering
 
 Form above part 1 it’s possible to conclude that outlier trades form due to executed quantity of trades (the trade that enrol executed qty between 184 and 201) Therefore its possible to identify the outlier traders using hierarchical clustering based on the sum of executed qty for each buyer.
+
+#### part 3 :- Identifing collusive trader group using Apriori Algorithm
+
+Association rule learning is a rule-based machine learning method for discovering complex relationships between variables in large dataset. Apriori is an algorithm that use for frequent item set mining and association rule learning within databsets. It proceeds by identifying the frequent individual items in the database and extending them to larger and larger item sets as long as those item sets appear sufficiently often in the database.
+
+Stock market manipulations as an organized collusive trader groups in stock market can be consider as one of major formats of market abuse, a Stock market manipulations can be extremely damaging to the proper functioning and integrity of capital markets.
+
+Market manipulation refers to artificially inflating or deflating the price of a stocks or otherwise influencing the behavior of the market for personal gain. Two common types of stock manipulation are pump and dump and poop and scoop. The pump and dump is the most frequently used manipulation to inflate a microcap stock by artificially buying and then sell out, leaving later followers to hold the loss. Manipulation is variously called price manipulation, stock manipulation, and market manipulation. However, in this approach let’s focus more about price manipulation and run Apriori to identify frequent traders within the segments which shows considerable amount of stock price changes.
