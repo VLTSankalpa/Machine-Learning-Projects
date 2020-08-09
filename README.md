@@ -33,6 +33,7 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 
 ## Proxy Climate Indicators
 
+The World Data Center (WDC) for Paleoclimatology maintains the ice core data from polar and low-latitude mountain glaciers and ice caps throughout the world. Proxy climate indicators related to glaciers and ice caps include oxygen isotopes, methane concentrations, dust content, as well as many other parameters. As a one of important climate indicator correlation between CO2 level of ice core and age of the ice core, need to be investigate.
 
 ## Stock Market Anomaly Detection
 
