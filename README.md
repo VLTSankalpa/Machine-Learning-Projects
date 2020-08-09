@@ -35,3 +35,11 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 
 
 ## Stock Market Anomaly Detection
+
+#### part 1 :- Identifing outlier trades based on Executed Price & Executed Qty using Hierarchical Clustering¶
+
+An outlier is a data point that differs significantly from other observations. Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar and data points in different groups are more differs. Therefore, when clusters form outlier data points will be cluster in to an outlier clusters.
+
+#### part 2 :- Identifing outlier traders based on sum of Executed Qty using Hierarchical Clustering
+
+Form above part 1 it’s possible to conclude that outlier trades form due to executed quantity of trades (the trade that enrol executed qty between 184 and 201) Therefore its possible to identify the outlier traders using hierarchical clustering based on the sum of executed qty for each buyer.
