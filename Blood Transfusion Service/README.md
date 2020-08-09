@@ -10,6 +10,4 @@ To explain the process an example dataset related to blood transfusion service c
 4. **Time** - months since first donation
 5. **Binary variable** - represent whether he/she donated blood in March 2007 ( **1** stand for donating blood; **0** stands for not donating blood)
 
-![](RackMultipart20200809-4-qh2ziz_html_c55cc671489424cd.png)
-
 A random forest classifier has used to build the RFMTC marketing model by considering above one to four variables as **independent variables** and fifth variable as **dependent variable** as in **Q3.py** file.
