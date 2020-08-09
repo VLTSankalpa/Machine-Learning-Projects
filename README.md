@@ -60,7 +60,7 @@ in cellular-enabled massive MTC using machine learning and deep learning concept
 The World Data Center (WDC) for Paleoclimatology maintains the ice core data from polar and low-latitude mountain glaciers and ice caps throughout the world. Proxy climate indicators related to glaciers and ice caps include oxygen isotopes, methane concentrations, dust content, as well as many other parameters. As a one of important climate indicator correlation between CO2 level of ice core and age of the ice core, need to be investigate.
 
 #### IMPLEMENTATION DETAILS
-	Aim of implementing this simple linear regression model is to predict the CO2 level of ice cores based on their age. Therefore, this model has consider age (years) of ice cores as the independent variable and the CO2 level (ppmv: - parts per million by volume) of ice core as the dependent variable. A data set consist with 1096 observations on the above two variables. [Note: check Q4.py for more implementation details of the model]
+Aim of implementing this simple linear regression model is to predict the CO2 level of ice cores based on their age. Therefore, this model has consider age (years) of ice cores as the independent variable and the CO2 level (ppmv: - parts per million by volume) of ice core as the dependent variable. A data set consist with 1096 observations on the above two variables. [Note: check Q4.py for more implementation details of the model]
 
 ![](pic3.png)
 
