@@ -12,6 +12,8 @@ To explain the process an example dataset related to blood transfusion service c
 4. **Time** - months since first donation
 5. **Binary variable** - represent whether he/she donated blood in March 2007 ( **1** stand for donating blood; **0** stands for not donating blood)
 
+![](pic2.png)
+
 A random forest classifier has used to build the RFMTC marketing model by considering above one to four variables as **independent variables** and fifth variable as **dependent variable** as in **ML Model.py** file.
 
 ## Fashion MNIST-SageMaker
@@ -27,6 +29,10 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 
 ## Google Stock Price Trend Prediction
 
+![](Capture.PNG)
+
+
+![](Capture2.PNG)
 
 ## IOT Network Traffic Prediction
 
@@ -50,7 +56,34 @@ in cellular-enabled massive MTC using machine learning and deep learning concept
 
 ## Proxy Climate Indicators
 
+#### PROBLEM DEFINITION AND APPROACH
 The World Data Center (WDC) for Paleoclimatology maintains the ice core data from polar and low-latitude mountain glaciers and ice caps throughout the world. Proxy climate indicators related to glaciers and ice caps include oxygen isotopes, methane concentrations, dust content, as well as many other parameters. As a one of important climate indicator correlation between CO2 level of ice core and age of the ice core, need to be investigate.
+
+#### IMPLEMENTATION DETAILS
+	Aim of implementing this simple linear regression model is to predict the CO2 level of ice cores based on their age. Therefore, this model has consider age (years) of ice cores as the independent variable and the CO2 level (ppmv: - parts per million by volume) of ice core as the dependent variable. A data set consist with 1096 observations on the above two variables. [Note: check Q4.py for more implementation details of the model]
+
+![](pic3.png)
+
+#### ACCURACY IMPROVEMENTS
+
+![](pic4.png)
+
+According to above graphs data set shows nonlinear characteristics, simple linear regression gives very poor accurate predictions. Therefore, improvements in predictions results has achieved using random forest regression model. 
+Note:
+	Red colour dots represent actual data points in training and testing dataset
+	Blue line represent the fitted model
+Below figure, compare the values among,
+y_test: - testing data set points
+y_pred_SLR: - predictions of simple linear regression model
+y_pred_RFR: - predictions of random forest regression model
+
+![](pic5.png)
+
+#### PERFORMANCE OPTIMIZATIONS
+Feature scaling can used to normalize the range of independent variables or features of dataset in order to optimize the training or learning process of a above random forest regression model. In addition, this can considerably reduce the processing power and time required to plot graphs in above-mentioned Q4.py. This is also known as data normalization and is generally performed during the data pre-processing step. However, in the other hand feature scaling can harmfully effect to the interpretability of the machine learning model. Therefore in above model feature scaling has not been applied and particular StandardScaler code section has included as a comment. Other than StandardScaler below, scalars also can be used for this purpose.
+1.	MinMaxScaler 
+2.	RobustScaler 
+3.	Normalizer 
 
 ## Stock Market Anomaly Detection
 
