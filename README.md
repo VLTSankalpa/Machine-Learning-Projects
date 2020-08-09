@@ -1,6 +1,6 @@
 # Machine-Learning-Projects
 
-### Blood Transfusion Service
+## Blood Transfusion Service
 
 The concept called **Gini importance** of variables and features in random forest classifiers can used to calculate the variable importance and then select most importance variables among other large number of variables or features in the random forest problem.
 
@@ -14,7 +14,7 @@ To explain the process an example dataset related to blood transfusion service c
 
 A random forest classifier has used to build the RFMTC marketing model by considering above one to four variables as **independent variables** and fifth variable as **dependent variable** as in **ML Model.py** file.
 
-### Fashion MNIST-SageMaker
+## Fashion MNIST-SageMaker
 
 Context
 
@@ -70,13 +70,13 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Google Stock Price Trend Prediction
+## Google Stock Price Trend Prediction
 
 
-### IOT Network Traffic Prediction
+## IOT Network Traffic Prediction
 
 
-### Proxy Climate Indicators
+## Proxy Climate Indicators
 
 
-### Stock Market Anomaly Detection
+## Stock Market Anomaly Detection
