@@ -30,6 +30,21 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 
 ## IOT Network Traffic Prediction
 
+Machine type communication (MTC) will lead to remarkable and rapid developments in a wide range
+of domains while evolving the nature of different environments and markets. It will connect a large
+number of MTC devices to the internet and other networks, forming the ecosystem called the Internet
+of Things. International telecommunication union (ITU) has defined, enabling massive MTC over
+cellular networks as one of the key features of forthcoming 5G based international mobile
+telecommunications (IMT) -2020 networks. MTC networks must be able to support ultra-reliable, low
+latency communication and intelligently manage machine type devices (MTD) in real-time dynamic
+environments. According to the existing literature, the concept of fast uplink grant shows potential to
+realize above requirements and it is emerging as a promising solution for enabling massive machine
+type communication (MTC) in the Internet of Things over cellular networks. The key intelligent features
+of base station (BS) that are required for adapting the fast uplink grant, which are prediction of
+Machine Type Devices which have data packets to transmit and the optimal allocation of the fast
+uplink grant can be achieved by integrating notions of artificial intelligence (AI) and machine learning.
+This project focuses on proposing an innovative learning framework for adapting to fast uplink grant
+in cellular-enabled massive MTC using machine learning and deep learning concepts. 
 
 ## Proxy Climate Indicators
 
